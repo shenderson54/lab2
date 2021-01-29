@@ -22,7 +22,7 @@ nav {
     height: 80px;
     display: flex;
     margin: 0;
-    padding: 0;
+    padding-left: 20px;
 }
 
 
@@ -31,7 +31,7 @@ nav {
     margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     font-weight: 900;
     }
@@ -42,7 +42,6 @@ nav {
 a {
     text-decoration: none;
     list-style-type: none;
-    display: flex;
     padding-right: 45px;
     font-size: 10px;
     font-weight: 600;
@@ -57,6 +56,7 @@ button {
     margin-top: 2px;
     margin-bottom: 6px;
     margin-right: 20px;
+    margin-left: 20px;
     border-color: darkorange;
     color: darkorange;
     padding: 12px 15px ;
@@ -92,10 +92,14 @@ span {
 }
 
 input {
-    display: block;
-    width: 330px;
-    height: 35px;
-    border: 2px solid #f2f2f2;
+    border-bottom-style: grey solid 3px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    width: auto;
+    margin: 0px 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 ::placeholder {
